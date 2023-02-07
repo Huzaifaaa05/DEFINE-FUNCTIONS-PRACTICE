@@ -39,19 +39,12 @@ Console.WriteLine(analyzeNumber(0));
 
 // Is Even?
 
-static string isEven(int num)
+static bool isEven(int num)
 {
-    if (num % 2 == 0)
-    {
-        return "even";
-    }
-    else
-    {
-        return "odd";
-    }
+    return num % 2 == 0;
 }
 
-Console.WriteLine(isEven(7));
+Console.WriteLine(isEven(8));
 
 // Series Sum
 
